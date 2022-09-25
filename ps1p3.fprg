@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-25 10:57:03 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTZDNjdHVEE7MjAyMi0wOS0yNTswOTo1OToyNSBBTTszMzA2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTZDNjdHVEE7MjAyMi0wOS0yNTsxMDo1NzowMyBBTTs3OzM0MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="amntofgallons" type="Real" array="False" size=""/>
+            <declare name="Milestraveled" type="Real" array="False" size=""/>
+            <declare name="Mpg" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter ammount of gallons&quot;" newline="True"/>
+            <output expression="&quot;Milestraveled&quot;" newline="True"/>
+            <input variable="amntofgallons"/>
+            <assign variable="mpg" expression="Milestraveled / gallons"/>
+            <assign variable="total" expression="miles + gallons"/>
+        </body>
+    </function>
+</flowgorithm>
