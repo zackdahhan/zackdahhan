@@ -1,0 +1,8 @@
+lname = input("enter your last name")
+hours = float(input("enter hours worked"))
+rate = float(input("enter rate of pay"))
+
+gp = hours * rate
+
+print(lname)
+print("your gross pay is $", gp)
