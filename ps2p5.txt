@@ -1,0 +1,6 @@
+profitem = float(input("enter price of item"))
+discountpercent = float(input("enter discount percent"))
+
+finalprice = profitem * discountpercent/100
+
+print(the final price of the product is $, finalprice)
