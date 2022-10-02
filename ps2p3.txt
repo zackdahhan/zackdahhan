@@ -1,0 +1,8 @@
+length = float(input(enter length of rectangle))
+width = float(input(enter width of rectangle))
+
+area = length * width
+circum = 2 * length + 2 * width
+
+Print("the area is , area")
+print("the circum is , circum")
