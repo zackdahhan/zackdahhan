@@ -1,0 +1,7 @@
+lname = input(enter last name)
+credits = float(input("enter amount of credits"))
+
+totaltuition = credits * 250 + 100
+
+print(lname)
+print("the total cost of tuition is $ , totaltuition")
