@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-08 08:02:19 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVU3OUlDRkM7MjAyMi0xMC0wODswNzozNjowNSBQTTszMzI5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVU3OUlDRkM7MjAyMi0xMC0wODswODowMjoxOSBQTTsxOzM0MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="up" type="Real" array="False" size=""/>
+            <declare name="qty" type="Real" array="False" size=""/>
+            <declare name="extprice" type="Real" array="False" size=""/>
+            <declare name="tax" type="Real" array="False" size=""/>
+            <input variable="qty"/>
+            <if expression="qty &gt;= 1000">
+                <then>
+                    <assign variable="up" expression="3.00"/>
+                </then>
+                <else>
+                    <assign variable="up" expression="5.00"/>
+                </else>
+            </if>
+            <assign variable="extprice" expression="qty * up"/>
+            <assign variable="tax" expression="extprice * 0.07"/>
+            <assign variable="total" expression="extprice + tax"/>
+            <output expression="&quot;quantity ordered &quot; &amp; qty" newline="True"/>
+            <output expression="&quot;unit price &quot; &amp; up" newline="True"/>
+            <output expression="&quot;extended price is $ &quot; &amp; extprice" newline="True"/>
+            <output expression="&quot;tax is $ &quot; &amp; tax" newline="True"/>
+            <output expression="&quot;total order $ &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
