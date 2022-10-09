@@ -1,0 +1,12 @@
+ordertotal = input(cost of order)
+shipping = input(coat of shipping)
+
+if ordertotal >50:
+shipping = 0
+
+else ordertotal < 50:
+shipping = 25
+
+print("the total order cost is $"")
+print("the shipping cost is $"")
+print("ordertotal is $ "", ordertotal)
