@@ -1,0 +1,19 @@
+lastname = input("enter last name")
+grosspay = input("enter your gross income")
+nodep = input("enter dependants")
+
+adjgross = float(grosspay) - 12000.00 * float(nodep)
+
+if adjgross > 50000.00
+tax = adjgross * 0.20
+else:
+tax= adjgross * 0.10
+
+if tax < 0:
+tax = 100.00
+
+print(lastname)
+Print("gross income:     $", gross pay)
+print("number of independants:     $ ", nodep)
+print("adjusted gross:     $", adjgross)
+print("income tax:     $", tax)
