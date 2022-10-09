@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-08 08:33:43 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVU3OUlDRkM7MjAyMi0xMC0wODswODoyODo1NiBQTTszMzM3"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVU3OUlDRkM7MjAyMi0xMC0wODswODozMzo0MyBQTTsxOzM0Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ordertotal" type="Real" array="False" size=""/>
+            <declare name="shipping" type="Real" array="False" size=""/>
+            <declare name="totalcost" type="Real" array="False" size=""/>
+            <output expression="&quot;enter number of books&quot;" newline="True"/>
+            <if expression="ordertotal &lt;= 50">
+                <then>
+                    <assign variable="shipping" expression="0"/>
+                </then>
+                <else>
+                    <assign variable="shipping" expression="25"/>
+                </else>
+            </if>
+            <assign variable="totalcost" expression="shipping + ordertotal"/>
+            <output expression="&quot;the total order price is $ &quot; &amp; ordertotal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
