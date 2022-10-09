@@ -1,0 +1,12 @@
+item = float(input("please enter item (A or B)"))
+qty = float(input("enter qty ordered"))
+
+if item = "A"
+up = 10.00
+
+else: item= "B"
+up = 20.00
+
+extprice = qty * up
+
+print( "quantity ordered", qty)
