@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-12 02:24:37 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLU1KVUJIMjA7MjAyMi0xMC0xMjswMjoxNzowNSBQTTszMzE2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLU1KVUJIMjA7MjAyMi0xMC0xMjswMjoyNDozNyBQTTsxOzM0Mjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="salary" type="Real" array="False" size=""/>
+            <declare name="joblvl" type="Integer" array="False" size=""/>
+            <declare name="bonusrt" type="Integer" array="False" size=""/>
+            <input variable="lastname"/>
+            <input variable="salary"/>
+            <input variable="joblvl"/>
+            <if expression="joblvl &gt;= 10">
+                <then>
+                    <assign variable="bonusrt" expression="0.25"/>
+                </then>
+                <else>
+                    <if expression="joblvl = 5 - 9">
+                        <then>
+                            <assign variable="bonusrt" expression="0.20"/>
+                        </then>
+                        <else>
+                            <if expression="joblvl &lt; 4">
+                                <then>
+                                    <assign variable="bonusrt" expression="0.10"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="bonus" expression="salary + salary * bonusrt"/>
+            <output expression="lastname" newline="True"/>
+            <output expression="&quot;the total salary is &quot; &amp; bonus" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
