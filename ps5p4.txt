@@ -1,0 +1,13 @@
+lastname = input("enter your last name")
+hours = input("enter your hours worked")
+
+response = input(did you work more than 40 hours yes or no?"")
+
+while response == "yes":
+ lastname = input("enter your last name")
+ hours = input("how many hours did you work")
+ grosspay = hours * 1.5
+ averagepay = lastname * grosspay
+
+print ("the average pay is " & averagepay)
+print ("the number of workers is " & lastname)
