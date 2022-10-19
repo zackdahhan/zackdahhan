@@ -1,0 +1,18 @@
+qty = input("enter the ammount of items your purchased")
+price = input("enter the total price of the items")
+
+response input("is the price grater than 10000 yes or no?")
+
+while response == "yes":
+price = input("enter total price of items")
+discount = 0.025 * price
+totalprice = discount - extprice
+ print("the total price of the item is " & totalprice)
+
+while response == "no":
+price = input("enter total price of items")
+discount = 0.01 * price
+totalprice = discount - extprice
+ print("the total price of the item is " & totalprice)
+
+print("the total price is your purchase with discount is " & totalprice)
