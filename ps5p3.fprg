@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 12:05:16 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVY0NEw4TkY7MjAyMi0xMC0xOTsxMToyNDo1OCBBTTszMzEy"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVY0NEw4TkY7MjAyMi0xMC0xOTsxMjowNToxNiBQTTszOzM0MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="response" type="String" array="False" size=""/>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="score1" type="Real" array="False" size=""/>
+            <declare name="score2" type="Real" array="False" size=""/>
+            <output expression="&quot;do you want to compute your average score? (Yes or No)&quot;" newline="True"/>
+            <input variable="response"/>
+            <while expression="response = yes">
+                <output expression="&quot;enter student last name&quot;" newline="True"/>
+                <input variable="lastname"/>
+                <output expression="&quot;enter exam score 1&quot;" newline="True"/>
+                <input variable="score1"/>
+                <output expression="&quot;enter exam score 2&quot;" newline="True"/>
+                <input variable="score2"/>
+                <assign variable="avg" expression="(score1 + score2)/2"/>
+                <output expression="&quot;student&quot; &amp; lastname &amp; &quot;has average score of &quot; &amp; avg" newline="True"/>
+            </while>
+            <output expression="&quot;the student named &quot; &amp; lastname" newline="True"/>
+            <output expression="&quot;the avgscore was &quot; &amp; avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
