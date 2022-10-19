@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 01:01:03 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVY0NEw4TkY7MjAyMi0xMC0xOTsxMjo0NDoxMyBQTTszMzIx"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVY0NEw4TkY7MjAyMi0xMC0xOTswMTowMTowMyBQTTsxOzM0MTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qty" type="Real" array="False" size=""/>
+            <declare name="price" type="Real" array="False" size=""/>
+            <declare name="discount" type="Integer" array="False" size=""/>
+            <declare name="extprice" type="Real" array="False" size=""/>
+            <assign variable="extprice" expression="qty * price"/>
+            <output expression="&quot;is the extprice greater than 10000?&quot;" newline="True"/>
+            <while expression="response == &quot;yes&quot;">
+                <assign variable="discount" expression="extprice * 0.25"/>
+                <output expression="&quot;enter extprice&quot;" newline="True"/>
+                <input variable="exprice"/>
+                <output expression="&quot;your total price is &quot; &amp; discount" newline="True"/>
+                <assign variable="total" expression="extprice - discount"/>
+                <output expression="&quot;the final price is &quot; &amp; total" newline="True"/>
+            </while>
+            <output expression="&quot;your final price is &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
