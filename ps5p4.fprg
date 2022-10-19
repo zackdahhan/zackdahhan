@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 12:42:58 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVY0NEw4TkY7MjAyMi0xMC0xOTsxMToyNDo1OCBBTTszMzEy"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVY0NEw4TkY7MjAyMi0xMC0xOTsxMjo0Mjo1OCBQTTs0OzM0Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="hours" type="Real" array="False" size=""/>
+            <declare name="rop" type="Integer" array="False" size=""/>
+            <declare name="grosspay" type="Real" array="False" size=""/>
+            <output expression="&quot;enter ammount of hours worked&quot;" newline="True"/>
+            <output expression="&quot;are hours worked over 40?&quot;" newline="True"/>
+            <while expression="response == &quot;yes&quot;">
+                <assign variable="rop" expression="rop * 1.5"/>
+                <input variable="lastname"/>
+                <input variable="rop"/>
+                <assign variable="grosspay" expression="rop * 1.5"/>
+                <output expression="&quot;your gross pay is &quot; &amp; grosspay" newline="True"/>
+                <input variable="employees"/>
+                <assign variable="avg" expression="(grosspay * employees)/employees"/>
+                <output expression="&quot;the average pay of the employees is &quot; &amp; avg" newline="True"/>
+            </while>
+            <output expression="&quot;total avarage pay per employee is &quot; &amp; avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
