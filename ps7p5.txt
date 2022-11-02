@@ -1,0 +1,11 @@
+def comptotal(jobcode,hours)
+ tuition = float(jobcode) * (hours)
+
+if jobcode = I:
+  hourly = 250
+ else jobcode = O
+ hourly = 550
+
+tuition = jobcode * hourly
+
+print("your total tuition is ", tuition)
