@@ -1,0 +1,14 @@
+def comptotal(destination, miles, gallons)
+ mpg = float(miles * float(gallons))
+
+
+mpg = miles * gallons
+
+gallon = 2.50
+
+cost = gallons * 2.5
+
+mpg = float(input("enter miles per gallon"))
+cost = float(input("enter cost of gas"))
+
+print("total price is ", cost)
