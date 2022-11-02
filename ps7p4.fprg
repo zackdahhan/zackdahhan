@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 04:04:20 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUlRQlBCSFM7MjAyMi0xMS0wMjswMzo1OTozMyBQTTszMzcz"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUlRQlBCSFM7MjAyMi0xMS0wMjswNDowNDoyMCBQTTsxOzM0Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="jobcode" type="Real" array="False" size=""/>
+            <declare name="hours" type="Real" array="False" size=""/>
+            <input variable="hours"/>
+            <input variable="jobcode"/>
+            <call expression="comptotal(jobcode,hours)"/>
+            <assign variable="l" expression="25"/>
+            <assign variable="a" expression="30"/>
+            <assign variable="j" expression="50"/>
+            <assign variable="payrate" expression="jobcode * hourly"/>
+            <input variable="grosspay"/>
+        </body>
+    </function>
+</flowgorithm>
