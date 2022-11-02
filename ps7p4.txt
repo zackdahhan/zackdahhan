@@ -1,0 +1,15 @@
+def comptotal(jobcode, hours)
+ totalpay = float(jobcode) * (hours)
+
+if jobcode = I:
+ hourly = 25
+
+else jobcode = A:
+ hourly = 30
+
+else jobcode = J:
+ hourly = 50
+
+grosspay = hours * hourly
+
+print("your total pay is ", grosspay)
