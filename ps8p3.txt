@@ -1,0 +1,17 @@
+def comptotal(make,model,evc,msrp)
+ total = float(msrp) - float(discount) + float(tax)
+
+if make = honda:
+ percent = 0.10
+ else make = toyota:
+ percent = 0.15
+ else make = electric:
+ percent = 0.3
+ else make = other:
+ percent = 0.05
+
+discount = 0.07
+
+sum = msrp-discount + tax
+
+print("the total cost is "), sum

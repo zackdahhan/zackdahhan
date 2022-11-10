@@ -1,0 +1,17 @@
+def comptotal(county,percent)
+cost = float(county) * float(percent)
+
+if county = cook:
+ percent = 0.90
+ else county = dupage:
+ percent = 0.80
+ else county = mchenry:
+ percent = .75
+ else county = kane:
+ percent = .60
+ else county other:
+ percent = .70
+
+value = percent * cost
+
+print("The totla value is ", value)

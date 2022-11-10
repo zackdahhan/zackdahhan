@@ -1,0 +1,13 @@
+def comptotal(length,width,height)
+ gallons = float(length) * float(width) * 2
+
+length = float(input("enter length"))
+width = float(input("enter width"))
+height = float(input("enter height"))
+
+sqr = 2 * length * width
+
+gallon = 50ft
+total = sqr * gallons
+
+print("the number of gallons is ", total)

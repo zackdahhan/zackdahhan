@@ -1,0 +1,20 @@
+def comptotal(month, sales)
+ sales = 1 + forecast %
+
+if month = jan,feb,march:
+ percent = 0.10
+ else apr, may, jun:
+ percent = 0.15
+ else jul,aug,sep
+ percent = 0.20
+ else oct,nov,dec
+ percent = 0.25
+
+return total
+
+lastname = float(input("enter lastname"))
+month = float(input("enter month"))
+
+forecast = 1 + percent
+
+print("forecast is ", forecast)

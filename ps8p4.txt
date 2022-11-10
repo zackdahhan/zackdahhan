@@ -1,0 +1,15 @@
+def comptotal(lastname,miles)
+ cost = float(ticket) * float(miles)
+
+if miles = 30+:
+ price = 12
+ else miles = 20-29
+ price = 20
+ else miles = 10-19:
+ price = 8
+ else miles = other
+ price = 5
+
+sum = miles * price
+
+print("the cost of the ticket is", sum )
