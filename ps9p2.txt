@@ -1,0 +1,10 @@
+last name = float(input("enter your last name"))
+scores = float(input(enter last 3 exam scores))
+
+average = exam scores / # of exams
+
+total points = last 3 exam scores
+
+print("your name is ",lastname)
+print("your score is ", exam score)
+print("total points is", total points)

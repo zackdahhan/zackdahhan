@@ -1,0 +1,14 @@
+lastname = float(input("enter lastname"))
+
+scores = float(input("enter 3 game scores"))
+
+handicap = float(input(enter handicap))
+
+avgscore = scores / 3
+avgscore with handicap = avgscore * handicap
+
+print("your name is ", lastname)
+
+print("the avgscore is ", avgscore)
+
+print("the average score with handicap is ",avgscore with handicap)

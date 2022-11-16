@@ -1,0 +1,12 @@
+qty = float(input("enter the quantity"))
+
+unitprice = float(input(enter the unit price))
+
+total = qty * unitprice
+
+tax = 0.07
+
+totalprice = total + total * tax
+
+print("the total is ", total)
+print("the tax in main is ", totalprice)

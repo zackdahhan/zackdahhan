@@ -1,0 +1,14 @@
+def comptotal(sales, comission)
+ commision = float(sales) * float(commision rate)
+
+if sales > 100,000 then:
+ commission = 0.10
+else sales < 100,000
+ commission = 0.05
+
+next year target = 0.05 * sales
+profit = sales * commission
+
+print("your name is", lastname )
+print("the total commission is ", profit)
+print("next years sales target is ", next year target)
