@@ -1,0 +1,78 @@
+def displaynames (last, salary) :
+for i in last, salary:
+print(i)
+for y in salary:
+print (y)
+1 = len (lastn)
+print ("Display array using for loop controls") for x in range (0, 1,1) :
+print(x, " ", lastn[x], " ", salary [x])
+# open file and connect
+#file created in same repl as code so no need for path
+f = open("Inames.txt", "p")
+for y in range (1-1, -1, -1):
+print(lastn [y], salary[y])
+#function to find highest and lowest salary def hilow (lastn, salary) :
+1 = len(lastn)
+hisalary = -1.0
+lowsalary = 99999999.99
+for y in range (0,1,1):
+if float(salary [y]) › float (hisalary) :
+hiindex = y
+hisalary = salary [y]
+if float (salary [y]) ‹ float(lowsalary) :
+loindex = y
+lowsalary = salary[y]
+print("highest salary", lastn[hiindex], salary
+[hiindex])
+print("lowest salary", lastn[loindex], salary
+[loindex])
+#function to sum all salaries def sumsalaries (salary):
+s = 0
+#traverse the array
+1 = len (salary)
+for y in range (0,1,1):
+s = s + salary [y]
+print("Total all salaries ", s)
+#function to do a sequential search def seqsearch (Lastn, sname) :
+1 = len (lastn)
+sindex = -1
+for y in range(0,1,1):
+if last [y] == sname:
+sindex = y
+T
+return sindex
+# open file and connect
+#file created in same repl as code so no need for path
+f = open("Inames.txt", "p")
+#initialize counters and accumulators to a
+total bonus = 0
+c = 0
+print("here")
+lastname = f.readline()
+lastn = [1
+salary = []
+while lastname != "":
+с = с + 1
+last. append(str (lastname).rstrip("\n"))
+s = float(f.readline ( ))
+salary.append(s)
+lastname = f.readline ( )
+f.close ()
+displaynames (last, salary) displayr (lastn, salary)
+hilow(lastn, salary)
+sumsalaries (salary)
+response = input ("Do you want to do this program
+(Yes or No)")
+while response == "Yes"
+sname = input("Enter last name to search for")
+# call function but it returns the index in the
+Array when Found
+# returns -1 if not found in the array
+i = seqsearch (last, sname)
+if i == -1:
+print (sname,
+" not in the array")
+else:
+print (lastn[i], " salary of ", salary[i])
+response = input ("Do you want to do this program
+(Yes or No)")

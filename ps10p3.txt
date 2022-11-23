@@ -1,0 +1,14 @@
+def display(scoresArray):
+
+high_var = 0 #initialize a variable to high_var to 0
+for i in range(len(scoresArray)):
+if scoresArray[i] > high_var: #If the array value is higher than the high_var 
+high_var = scoresArray[i] #then set high_var to the array value
+high_index = i 
+
+
+low_var = 999
+for i in range(len(scoresArray)): 
+if scoresArray[i] < low_var: 
+low_var = scoresArray[i] 
+low_index = i 

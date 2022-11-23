@@ -1,0 +1,8 @@
+def display(names,scores):
+#use the indexing 
+for i in range(len(names)):
+print(names[i]," ",scores[i])
+
+names=["name1","name2","name3","name4","name5","name6","name7","name8","name9","name10"]
+scores=[79,72,45,97,12,76,92,12,90,99]
+display(names,scores)

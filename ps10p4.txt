@@ -1,0 +1,25 @@
+def displaynames (last, salary):
+for i in lastn, salary:
+print(i)
+for y in salary:
+print (y)
+1 = len (lastn)
+print ("Display array using for loop controls") for x in range (0,1,1):
+print(x, " ", lastn[x], " ", salary[x])
+# open file and connect
+#file created in same repl as code so no need for path
+f = open ("Inames.txt",
+"r")
+#define arrays
+lastn = [1
+salary = []
+lastname = f.readline ()
+I
+while lastname !=
+lastn.append(str(lastname).rstrip("\n"))
+s = float(f.readline () )
+salary.append(s)
+lastname = f.readline()
+f.close()
+#call the function to display the array elements displaynames (last,salary)
+15:26
