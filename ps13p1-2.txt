@@ -1,0 +1,8 @@
+#Employee Bonus class 
+class Employee_Bonus:
+#constructor 
+def init _(self, salary, rate ):
+#to this class self.salary=salary self.rate=rate
+#method calculate bonus 
+def calculate bonus (self):
+#return bonus return self.salary*self.rate

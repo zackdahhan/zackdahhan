@@ -1,0 +1,27 @@
+#student class 
+class Student:
+#constructor 
+def init _(self, first_name, last_name, district_code, enrolled _credits)
+#to this class assigning 
+self.first name=first name self.last name=last name self.district code-district code self. enrolled credits=enrolled credits 
+#pass
+pass
+#tution owned method 
+def tution owned (self):
+#if condition if self.district code=="I":
+#assigning tution tut=250.00 
+#else condition else:
+#assigning tution 
+tut=500.00
+#return tut return tut
+#employee object 
+el=Employee Bonus (500,4)
+#printing Employee_Bonus
+print ("The employee bonus is",el.calculate_bonus () )
+#print new line print ( )
+#creating student object s1=Student ( "Hilbert"
+"Stone", "I", 20 )
+#printing
+print ("First Name is:"‚si.first name)
+print ("Last Name is:"‚sl.last name)
+print ("The tution owned is:" ,s1.tution_owned ( ) )
