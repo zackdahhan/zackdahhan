@@ -1,0 +1,49 @@
+n = int(input("enter number of items:"))
+first = 0
+
+for i in range (0,n):
+first.append(int(input()))
+print(first)
+
+first.insert(1,99)
+print(first)
+
+for i in range(0,len(first)):
+if first[i]==99
+first[i] = 100
+print(first)
+
+second = [500,600,700,800,900]
+print(second)
+
+first.extend(second)
+print(first)
+
+first.remove(800)
+print(first)
+
+first.pop(2)
+
+grades = ["A","B","C","A","A","C"]
+print(grades.count("A"))
+
+print(grades.index("B"))
+
+if "F" not in grades:
+ print("F is not in the list")
+
+second.clear()
+print(second)
+
+del second
+
+print(second)
+
+players = ["rizzo","davis","baez","happ","bryan"]
+
+players.sort()
+print(players2)
+
+players2 = sorted(players2,reverse=true)
+print(players)
+print(players2)
