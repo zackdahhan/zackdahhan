@@ -1,0 +1,36 @@
+noOfChar = int(input("Enter no. of characters to print in each lines: "))
+	
+noOfLine = int(input("Enter no. of lines to print: "))
+	
+scrDirection = input("Enter scroll direction of Line: Right: r || Left: l -> ")
+
+	
+shift = ""
+if scrDirection == "r":
+shift = ""
+elif scrDirection == "l":
+shift = " " * (noOfLine - 1)
+
+	
+counter = 0
+
+	
+		
+print(shift, end='')
+
+		
+if scrDirection == "r":
+			shift += " "
+elif scrDirection == "l":
+			shift = shift[:-1]
+
+	
+for j in range(noOfChar):
+			
+print(line[counter], end='')
+			
+counter = (counter + 1) % len(line)
+		
+# main
+if __name__ == '__main__':
+	
