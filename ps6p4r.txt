@@ -1,0 +1,29 @@
+f = open("data2.txt", "r")
+
+c = 0
+totalexprice = 0
+ #get first part of data
+
+item = f.readline()
+
+while item !="":
+  quantity = f.readline()
+  price = float(f.realine())
+
+c = c + 1
+extprice = quantity * price
+totalextprice = extprice + totalextprice
+averageorder = totalextprice / quantity
+
+print("the item is", item)
+print("the quantity of the item is", quantity)
+print("the price of the item is", price)
+print("extended price is",extprice)
+
+item = f.readline()
+
+f.close()
+
+print("sum of all the extended prices", totalextprice)
+print("number of orders", c)
+print("avarage order")

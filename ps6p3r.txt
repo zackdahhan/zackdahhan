@@ -1,0 +1,36 @@
+c = 0
+totalbonus = 0
+
+#get first part of data
+
+lname = int(input("please enter last name"))
+salary = int(input("please enter salary"))
+
+f = open("data3.txt", "r")
+
+
+while salary !="":
+  lname = f.realine()
+  salary = f.readline()
+print("Total bonuses is ", totalbonus)
+
+if salary >= 100000.00:
+  bonusrate = .2
+else:
+  salary < 100,000.00 or > 50,000.00:
+  bonusrate = .15
+else: 
+  salary < 50,000.00:
+bonusrate = .1
+
+bonus = salary * bonusrate
+
+f = open("data3.txt", "r")
+
+print("last name", lname)
+print("salary is", salary)
+print("bonus is", bonus)
+
+totalbonus = (salary * bonusrate) * nbo
+
+
