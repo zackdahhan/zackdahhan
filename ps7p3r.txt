@@ -1,0 +1,17 @@
+destcity = float(input("please enter destination city"))
+mtraveled = float(input("please enter number of miiles travled") )
+ngallon = float(input("please enter number of gallons used"))
+
+def compcost(ngallons):
+  cost = ngallons * 2.5
+
+  return cost
+  
+def Tmpg(mtraveled, ngallon):
+  mpg = mtraveled / ngallon
+
+  return mpg
+  
+print("destination city is",destcity)
+print("cost is",cost)
+print("miles traveled is", mtraveled)

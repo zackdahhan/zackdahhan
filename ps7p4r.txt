@@ -1,0 +1,30 @@
+lname = float(input("please input last name"))
+jobcode = float(input("please input job code"))
+hours = float(input("please input number of hours"))
+
+def detgrosspay(hours, jobcode):
+  payrate = L or A or J
+  grosspay = payrate * hours
+
+  return grosspay
+
+def payrate(jobcode):
+  jobcode = "A" or "J" or "L"
+  payrate = jobcode * hours
+
+  if jobcode == "L":
+    rateofpay = 25
+else:
+if jobcode == "A"
+  rateofpay = 30
+else: 
+if jobcode == "J"
+rateofpay = 50
+else:
+if hours > 40
+  rateofpay = rateofpay * 1.5
+
+return rateofpay
+
+print(input("gross pay is", grosspay))
+print(input("lastname", lname))
