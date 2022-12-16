@@ -1,0 +1,33 @@
+def computeprice(make,model,electric,msrp):
+  if make == "honda" or make == "accord":
+    msrpper = .1
+  elif make == "toyota" or make == "rav4":
+    msrpper = .15
+  elif make == "electric":
+    msrpper = .30
+  else:
+    msrpper = .05
+  amount = msrpper * msrp
+  tax = .07 * msrp
+  total = msrp - amount + tax
+  return total
+totalmsrp = 0
+totasp = 0
+
+response = input("do you want to compute msrp of car (Yes or No)")
+while response == "Yes":
+  print("enter make of car")
+  make = input()
+  print("Enter model")
+  model = input()
+  print("is it a electric car (Yes or No)")
+  electric = input()
+  print("enter msrp")
+  msrp = input()
+  total = computeprice(make,model,electric,msrp)
+  print("total owed is $", total)
+  totalasp = totalasp + total
+  response = input("do you want to compute msrp of car (Yes or No)")
+
+print("Your total is $", totalmsrp)
+print("your total asking price $", total)

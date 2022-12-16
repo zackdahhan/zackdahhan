@@ -1,0 +1,29 @@
+def nms(month,sales):
+  if month == "jan" or "feb" or "mar":
+  forecastper = .1
+elif month == "apr" or "may" or "jun":
+forecastper = .15
+elif month == "jul" or "aug" or "sep":
+forcastper = .2
+else month == "oct" or "nov" or "dec":
+forcastper = .25
+nms = sales * (1 + forcastper)
+return nms
+value = 0
+
+response = input("do you want to compute next months forecast percent (y or n"))
+while response == "y":
+  print("enter name")
+  name = input()
+  print("enter month")
+  month = input()
+  print("Enter number of sales")
+  sales = input()
+  nms = nms(month,sales)
+  nmf = (1 + forcastper)
+  print("next months sales is $", nms)
+  print("the forecast percent is", forcastper)
+  response = input("do you want to compute next months forecast percent")
+
+  print("next months sales is $", nms)
+  print("the forecast percent is", forcastper)

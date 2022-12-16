@@ -1,0 +1,22 @@
+def derprice(miles):
+  if miles >= 30.0:
+  tp = 12
+elif miles >= 20:
+  tp = 10
+elif miles >= 10:
+  tp = 8
+else:
+  tp = 5
+return tp
+
+response = input("do you want to calculate the price of the ticket (y or n)")
+while response == "y":
+  print("enter number of miles")
+  miles = input()
+  derprice = derprice(miles)
+  totaltp = tp
+  response = input("do you want to calculate the price of the ticket (y or n)")
+
+print("price of ticket is 
+$", tp)
+print("the sum of the tickets is $", totaltp)

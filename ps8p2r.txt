@@ -1,0 +1,20 @@
+def squarefootage(length,width,height):
+  squarefootage = (2 * length * width) + (2 * length * height) + (2 * width * height)
+  return squarefootage
+
+response = input(" do you want to calculate the square footage (y or n)")
+while response == "y":
+  print("enter the length")
+  length = input()
+  print("enter the width")
+  width = input()
+  print("enter the height")
+  height = input()
+  squarefootage = squarefootage(length,width,height)
+  print("total square footage is", squarefootage)
+  ngallons = squarefootage / 50
+  print("total number of gallons needed is", ngallons)
+  response = input(" do you want to calculate the square footage (y or n)")
+
+print("your total square footage is", squarefootage)
+print("total number of gallons needed is", ngallons)
